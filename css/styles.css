@@ -56,14 +56,14 @@ h2 {
 }
 /* Header section */
 .header-section {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
     border-bottom: 1px solid rgba(231, 233, 252, 1);
 }
 .header-nav {
     display: flex;
     align-items: center;
-   
+    padding: 24px 0;
 
 }
 .header-container {
@@ -166,6 +166,7 @@ cursor: pointer;
 padding: 16px 32px;
 border-radius: 4px;
 border: none;
+min-width: 169px;
 }
 .hero-btn:hover,
 .hero-btn:focus,
@@ -245,8 +246,7 @@ color: var(--main-color);
     padding: 0px, 0px, 32px, 0px;
     width: 264px;
     height: 380px;
-    border-radius: 4px;
-    border-top: none;
+    border-radius: 0px 0px 4px 4px;
     text-align: center;
 }
 .team-member {
@@ -269,7 +269,10 @@ letter-spacing: 0.02em;
 }
 /* Portfolio section */
 .portfolio-section {
-   
+    
+}
+.portfolio-container {
+    
 }
 .portfolio-title {
     margin-bottom: 72px;
@@ -300,9 +303,7 @@ color: var(--main-color);
 .portfolio-image {
 }
 .portfolio-project-card {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
+    padding: 32px 16px;
     border-left: 1px solid var(--accent-color);
     border-right: 1px solid var(--accent-color);
     border-bottom: 1px solid var(--accent-color);
@@ -335,13 +336,13 @@ background-color: var(--main-color);
     justify-content: space-between;
 }
 .footer-company {
-    display: flex;
-    flex-direction: column;
-    max-width: 264px;
+    
+    
     
    
 }
 .footer-logo {
+display: inline-block; 
 color: var(--primary-brand-color);
 font-family: "Raleway", sans-serif;
 font-size: 18px;
@@ -349,13 +350,15 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-bottom: 16px;
+
 
 }
 .footer-logo-span {
     color: var(--light-color);
 }
 .footer-text {
-    margin-top: 16px;
+    max-width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-family: Roboto;
