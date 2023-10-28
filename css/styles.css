@@ -96,10 +96,11 @@ gap: 40px;
 
 }
 .header-menu {
-    padding: 24px 0;
+   
 }
 .header-menu-link {
 color: var(--main-color);
+padding: 24px 0;
 }
 .header-menu-link:focus,
 .header-menu-link:active,
@@ -331,10 +332,7 @@ color: var(--light-color);
 background-color: var(--main-color);
 
 }
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-}
+
 .footer-company {
     
     
