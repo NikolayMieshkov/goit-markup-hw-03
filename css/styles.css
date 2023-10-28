@@ -56,14 +56,13 @@ h2 {
 }
 /* Header section */
 .header-section {
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
+   
     border-bottom: 1px solid rgba(231, 233, 252, 1);
 }
 .header-nav {
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    
 
 }
 .header-container {
@@ -97,7 +96,7 @@ gap: 40px;
 
 }
 .header-menu {
-
+    padding: 24px 0;
 }
 .header-menu-link {
 color: var(--main-color);
